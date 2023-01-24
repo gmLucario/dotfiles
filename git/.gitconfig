@@ -1,0 +1,37 @@
+[user]
+	name = gmlukario
+	email = gmlukario@gmail.com
+	# signingkey = 
+
+[init]
+	defaultBranch = main
+
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = code -w
+
+[help]
+	autocorrect = 1	
+
+[diff]
+	tool = diff-vscode
+
+[difftool "diff-vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[commit]
+	gpgsign = true
+
+[tag]
+	gpgsign = true	
+
+[pull]
+	rebase = false
+
+[gpg]
+	# program = $(which gpg)
