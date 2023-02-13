@@ -45,6 +45,7 @@ export LANG=en_US.UTF-8
 
 
 # Export installed tools
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # gnu gpg
