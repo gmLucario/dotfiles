@@ -50,3 +50,5 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # gnu gpg
 export GPG_TTY=$(tty)
+# direnv
+eval "$(direnv hook $SHELL)"
