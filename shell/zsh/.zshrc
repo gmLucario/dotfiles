@@ -49,3 +49,5 @@ export LANG=en_US.UTF-8
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # gnu gpg
 export GPG_TTY=$(tty)
+# direnv
+eval "$(direnv hook $SHELL)"
